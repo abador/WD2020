@@ -31,5 +31,8 @@ a*=1
 print(a)
 import math
 print(math.pow(math.e,10))
-
-
+print(math.pow(math.e,10))
+print(math.ceil(4.8))
+print(math.floor(4.8))
+a = input("Wpisz a:")
+print(a)
