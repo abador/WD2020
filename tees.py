@@ -21,5 +21,15 @@ print(5 / 2)
 print(5 // 2)
 print(5 % 2)
 print(5 ** 2)
+a+=1
+print(a)
+a+=1
+print(a)
+a/=1
+print(a)
+a*=1
+print(a)
+import math
+print(math.pow(math.e,10))
 
 
