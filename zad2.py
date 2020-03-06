@@ -24,14 +24,5 @@ print(a)
 a%=b
 print(a)
 print("Zadanie4")
-from math import *
-print(e**10)
-a = 64
-print(pow(a,1/6))
-print("Zadanie5")
-imie="DOMINIK"
-nazw="GRZESZCZYK"
-str.capitalize(imie)
-str.capitalize(nazw)
-print(imie)
-print(nazw)
+from math import e,sqrt
+prin
