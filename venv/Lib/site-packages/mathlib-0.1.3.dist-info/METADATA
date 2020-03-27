@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mathlib
+Version: 0.1.3
+Summary: A pure-python maths library
+Home-page: https://github.com/spapanik/mathlib
+Keywords: mathematics
+Author: spapanik
+Author-email: spapanik21@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Project-URL: Repository, https://github.com/spapanik/mathlib
+Description-Content-Type: text/markdown
+
+<p align="center">
+<a href="https://github.com/ambv/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+A pure python mathematics library
+
