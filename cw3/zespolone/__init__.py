@@ -1,1 +1,1 @@
-all = ["dzialania", "wyswietlanie"]
+__all__ = ["dzialania", "wyswietlanie"]
