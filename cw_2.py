@@ -1,6 +1,7 @@
 import sys
 import math
 
+
 # ZADANIE 1
 napis = input("Podaj zdanie: ")
 print(napis.count(' '))
