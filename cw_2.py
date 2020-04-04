@@ -45,7 +45,7 @@ while True:
 lista = []
 print('Program odczytuje liczby od użytkownika i umieszcza je w tablicy.')
 while True:
-    x = int(input('Podaj liczbę do umieszczenia jej na liśćie: '))
+    x = int(input('Podaj liczbę do umieszczenia jej na liście: '))
     lista.append(x)
     print('Lista po zmianach ' + str(lista))
     q = str(input('Jeżeli chcesz opuścić program EXIT: '))
@@ -113,8 +113,9 @@ pierwiastek = math.sqrt(float(n))
 print(pierwiastek)
 
 # ZADANIE 15
-n = input('Podaj liczbę: ')
-for i in range(0, len(n), 1):
-    if (n[i] >= 'a' or 'z' <= n[i]) or (n[i] >= 'A' or 'Z' <= n[i]):
-        print('BŁĄD użytkownik podał literę zamiast cyfry')
-        break
+n = input(u'Podaj liczbę: ')
+try:
+    int(n)
+    print(u"Podałeś liczbę :)")
+except ValueError:
+    print(u"BŁĄD, podano literę zamiast cyfry!")
