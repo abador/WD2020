@@ -1,0 +1,6 @@
+----------------
+Rycerz porusza się WASD
+Aby wykonać ruch należy wpisać W, A, S lub D
+Wybranie Q lub QUIT powoduje zakończenie programu bez zapisania
+Aby zapisać postęp należy wybrać S lub SAVE
+----------------

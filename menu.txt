@@ -1,0 +1,8 @@
+----------------
+MENU GŁÓWNE
+Aby uruchomić żądaną funkcję należy wpisać wartość przy niej podaną.
+Wczytaj - 1
+Nowa gra - 2
+Instrukcja - 3
+Wyjście - 4
+----------------

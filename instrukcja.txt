@@ -1,0 +1,17 @@
+----------------
+Witaj w instrukcji do gry Rycerz.
+    Gra polega na ruchaniu się rycerzem w zakresie od (0, 0) do (999, 999)
+Gracz ma możliwość ruszania się w lewo, prawo, do góry oraz w dół,
+może to uczynić poprzez sterowaine rycerzem strzałkami gdzie:
+ W - ruch do góry,
+ A - ruch w lewo,
+ S - ruch w dół,
+ D - ruch w prawo.
+Gracz może wykonywać tylko jeden ruch na raz.
+    Aby zapisać grę należy wpisać komendę SAVE lub S gdzie znaki nie mają znaczenia,
+należy pamiętać, że S to również ruch w dół i jego wybranie spowoduje nie precyzyjny
+zapis dlatego zalecamy zapisywanie poprzez komendę SAVE.
+    W celu wyjścia z programu należy wpisać w konsolę komendę QUIT lub Q gdzie wielkość
+znaków nie ma znaczenia. Wyjście z programu nie powoduje wcześniejszego zapisu stanu
+rozgrywki, w celu zapisania stanu rozgrywki należy uprzednio wpisać komendę zapisu.
+----------------
