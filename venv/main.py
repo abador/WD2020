@@ -77,13 +77,15 @@ def menu():
             game(map)
             return
         if wybor==2:
-            if (len(savemode.load())==0):
-                print("Nie ma pliku do wczytania")
+            loaded_map = savemode.load()
+            if len(loaded_map) == 0:
+                print("Brak zapisu")
+                input()
                 continue
             else:
-                loadgame(savemode.load())
-                game(map)
-                return
+                loadgame(loaded_map)
+            game(map)
+            return
         if wybor==3:
             sterowanie()
             menu()
