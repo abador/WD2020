@@ -1,6 +1,6 @@
 import csv
 from os import path
-from screen import *
+
 
 def save(tab):
     try:
