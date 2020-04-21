@@ -99,5 +99,22 @@ for i in range(0, x, 1):
         print('A', end='')
     print()
 
+print("\n-----cw14-----\n")
 
+#cw14
+import math
+x=float(input('Podaj liczbe rzeczywistą większą od 0: '))
+try:
+    wynik = math.sqrt(x)
+    print('Pierwiastek z liczby: ',str(x) + ' = ' + str(wynik))
+except ValueError:
+    print('Nie można obliczyć pierwiastka z liczby ujemnej!')
 
+print("\n-----cw15-----\n")
+
+#cw15
+try:
+    liczba=float(input('Podaj liczbe: '))
+    print('Podałeś liczbe!')
+except:
+    print('Nie podaleś liczby!')
