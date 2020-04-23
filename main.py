@@ -17,7 +17,11 @@ def start():
             numer = int(sys.stdin.readline())
             if numer == 1 or numer == 2 or numer == 3:
                 pozycja = savegame.load(numer)
-                return pozycja
+                if pozycja == 0:
+                    pozycja = {'pozx': random.randint(-100, 100), 'pozy': random.randint(-100, 100)}
+                    return pozycja
+                else:
+                    return pozycja
             else:
                 print("Nie wybrales poprawnego numeru wyboru zapisu gry, powrot do menu glownego")
                 start()
