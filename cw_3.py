@@ -172,7 +172,7 @@ while True:
     if 'tak' != powtorka.lower():
         break
 
-ZADANIE 11
+#ZADANIE 11
 x = complex(input("Podaj wartość w formacie x+yj gdzie x, y podaje użytkownik: "))
 z = urojona_rzeczywista.rzeczywista(x)
 print(z)
