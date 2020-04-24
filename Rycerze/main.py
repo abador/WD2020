@@ -1,6 +1,7 @@
 from Rycerze.plik import *
 from Rycerze.akcje import *
 import random
+#AUTOR:Kacper Walczak ISI grupa IV/5 czwartek 17:30
 
 menu=["W","N","E"] #deklaracja opcji wyboru menu
 menu2=["W","A","S","D","SG","P"] #deklaracja wyboru ruchów zapisu itp
