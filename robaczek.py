@@ -26,7 +26,7 @@ class Robaczek(Objekt):
 
     def ZjedzOwoc(self, owoc, owoce):
         self.najedzenie += owoc.PobierzJedzenie()
-        print('\n    OOO! Zjadłeś właśnie owoc, który dał Ci - ' + str(owoc.PobierzJedzenie()) + ' EXP')
+        print('\n    OOO! Zjadłeś owoc, który dał Ci - ' + str(owoc.PobierzJedzenie()) + ' EXP')
         owoce.remove(owoc)
 
     def SprawdzPoziom(self):
