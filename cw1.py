@@ -1,4 +1,4 @@
-print("\n-----cw11-----\n")
+print("\n-----cw1-----\n")
 
 #cw1
 a,b=2, 3
@@ -11,7 +11,7 @@ print(c)
 print(d)
 print(e)
 
-print("\n-----cw11-----\n")
+print("\n-----cw2-----\n")
 
 #cw2
 a=4
@@ -28,7 +28,7 @@ print(mnozenie)
 print(dzielenie)
 print(potega)
 
-print("\n-----cw11-----\n")
+print("\n-----cw3-----\n")
 
 #cw3
 a=5
@@ -45,7 +45,7 @@ print(a)
 a%=2
 print(a)
 
-print("\n-----cw11-----\n")
+print("\n-----cw4-----\n")
 
 #cw4
 from math import *
@@ -58,33 +58,33 @@ print(c)
 d=ceil(4.80)
 print(d)
 
-print("\n-----cw11-----\n")
+print("\n-----cw5-----\n")
 
 #cw5
 a="DAMIAN"
 b="BANACH"
 print(str.capitalize(a), str.capitalize(b))
 
-print("\n-----cw11-----\n")
+print("\n-----cw6-----\n")
 
 #cw6
 tekst="la la la la la la la"
 print('"la" powtarza sie', tekst.count('la'),'razy')
 
-print("\n-----cw11-----\n")
+print("\n-----cw7-----\n")
 
 #cw7
 tekst="Tomasz Hajto wiadomo co"
 print(tekst[0])
 print(tekst[-1])
 
-print("\n-----cw11-----\n")
+print("\n-----cw8-----\n")
 
 #cw8
 tekst="la la la la la la la"
 print(str.split(tekst))
 
-print("\n-----cw11-----\n")
+print("\n-----cw9-----\n")
 
 #cw9
 string='tekst'
@@ -94,7 +94,7 @@ print('string: %(zm)s' % {'zm': string})
 print('float: %(zm)f' % {'zm': float})
 print('szestnastkowe: %(zm)s' % {'zm': hexdec})
 
-print("\n-----cw11-----\n")
+print("\n-----cw10-----\n")
 
 #cw10
 lista=[u'Piraci z Karaibów: Skrzynia Umarlaka', 'American Pie 1', 'Shrek', 'Madagaskar']
