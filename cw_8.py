@@ -42,21 +42,25 @@ print(df)
 # A
 sprzedawcy = df["Sprzedawca"]
 list = sprzedawcy.unique()
+print("\nA")
 print(list)
 
 # B
 zamowienia_max = df.sort_values('Utarg', ascending=False)
 zamowienia_max = zamowienia_max["Utarg"][:5]
+print("\nB")
 print(zamowienia_max.to_string(index=False))
 
 # C
 ilosc = df.set_index(["Sprzedawca", "Utarg"]).count(level="Sprzedawca")
 ilosc = ilosc["idZamowienia"].to_string()
+print("\nC")
 print(ilosc)
 
 # D
 ilosc_kraj = df.set_index(["Kraj", "Utarg"]).count(level="Kraj")
 ilosc_kraj = ilosc_kraj["idZamowienia"].to_string()
+print("\nD")
 print(ilosc_kraj)
 
 # E
@@ -64,12 +68,14 @@ ilosc_pol = df[df["Kraj"] == "Polska"]
 ilosc_pol = ilosc_pol[(ilosc_pol['Data zamowienia'] >= "2005-01-01") & (ilosc_pol['Data zamowienia'] <= "2005-12-31")]
 ilosc_pol = ilosc_pol.set_index(["Kraj", "Utarg"]).count(level="Kraj")
 ilosc_pol = ilosc_pol["idZamowienia"].to_string()
+print("\nE")
 print(ilosc_pol)
 
 # F
 ilosc_mean = df[(df['Data zamowienia'] >= "2004-01-01") & (df['Data zamowienia'] <= "2004-12-31")]
 ilosc_mean = ilosc_mean["Utarg"]
 ilosc_mean = ilosc_mean.mean()
+print("\nF")
 print(ilosc_mean)
 
 # G
